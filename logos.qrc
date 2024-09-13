@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/pictures">
+        <file>firstpic.png</file>
+        <file>header.png</file>
+        <file>potrait.png</file>
+        <file>welcome.png</file>
+        <file>sign.png</file>
+        <file>rider.png</file>
+    </qresource>
+    <qresource prefix="/map">
+        <file>map_1.png</file>
+        <file>map_2.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>home.png</file>
+        <file>bike.png</file>
+        <file>bulb.png</file>
+        <file>message.png</file>
+        <file>send.png</file>
+        <file>change.png</file>
+    </qresource>
+</RCC>

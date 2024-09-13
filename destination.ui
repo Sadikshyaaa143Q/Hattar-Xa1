@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>destination</class>
+ <widget class="QWidget" name="destination">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1492</width>
+    <height>796</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#fcfcfc;
+color:#703318
+
+</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>450</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #F3B305;
+color: #000000</string>
+   </property>
+   <property name="text">
+    <string>Search for a driver</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>230</y>
+     <width>351</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #703318</string>
+    </property>
+    <property name="text">
+     <string>Pickup</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>330</y>
+     <width>237</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #703318</string>
+   </property>
+   <property name="text">
+    <string>Destination</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>360</y>
+     <width>271</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #F1EAFF;
+color: #000000</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>1. Gate</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2. Block 9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3. Administration</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4. Library</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5. Mess Hall</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6. Football Ground</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7. Bus Stop</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8. Hostel</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9. Basketball Court</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10. NTIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>260</y>
+     <width>261</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #F1EAFF;
+color: #000000</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>1. Gate</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2. Block 9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3. Administration</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4. Library</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5. Mess Hall</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6. Football Ground</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7. Bus Stop</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8. Hostel</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9. Basketball Court</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10. NTIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="map">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>731</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>170</y>
+     <width>531</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #703318</string>
+   </property>
+   <property name="text">
+    <string>Please choose your current location and destination.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="home">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>611</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #703318</string>
+   </property>
+   <property name="text">
+    <string>Hattar Xa?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>580</y>
+     <width>471</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #703318</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Did you know?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Now you can chat with your driver to negotiate price for your ride.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Click here to send your first message!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bulb">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>580</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chat">
+   <property name="geometry">
+    <rect>
+     <x>1350</x>
+     <y>640</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #fcfcfc;
+color: #703318</string>
+   </property>
+   <property name="text">
+    <string>Chat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>550</y>
+     <width>561</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #C6BAB5;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>560</y>
+     <width>541</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#fcfcfc;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="status">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>450</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #F3B305;
+color: #000000</string>
+   </property>
+   <property name="text">
+    <string>Check Status</string>
+   </property>
+  </widget>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>map</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>splitter</zorder>
+  <zorder>label_2</zorder>
+  <zorder>comboBox_2</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>label_4</zorder>
+  <zorder>home</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_5</zorder>
+  <zorder>bulb</zorder>
+  <zorder>chat</zorder>
+  <zorder>status</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
